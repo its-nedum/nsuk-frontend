@@ -8,6 +8,16 @@ const Home = () => {
             <Navbar />
             <div className="banner_container">
                 <div className="banner">
+                    <div className="container-fluid">
+                        <div className="row">
+                            <div className="col-sm-12 col-md-8">
+
+                            </div>
+                            <div className="col-sm-12 col-md-4">
+
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>
