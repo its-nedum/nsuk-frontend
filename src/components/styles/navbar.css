@@ -7,6 +7,6 @@
     background-color: #85c226;
 }
 
-.nav-item > a {
-    color: #ffff;
+.nav-item a {
+    color: #ffff !important;
 }
