@@ -1,0 +1,12 @@
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+.nav_holder {
+    background-color: #85c226;
+}
+
+.nav-item > a {
+    color: #ffff;
+}
