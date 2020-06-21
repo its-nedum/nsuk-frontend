@@ -10,11 +10,18 @@ const Home = () => {
             <div className="banner_container">
                 <div className="banner">
                     <div className="container-fluid">
-                        <div className="row">
-                            <div className="col-sm-12 col-md-8">
-
+                        <div className="row login_details">
+                            <div className="col-sm-12 col-md-8 wlc2">
+                                <div className="welcome_note">                                 
+                                <h3>Post-UTME Screening Exercise</h3>
+                                <p>All candidates (UTME and DIRECT ENTRY) who made Nasarawa State University, Keffi as their first choice of institution as well as those that have changed their most preferred institution to NSUK in the 2020/2021 Unified Tertiary Matriculation Examination (UTME) and have at least Five O'level credit including English and mathematics are eligible to apply for the Post-UTME Screening Exercise.
+                                Click here for <Link>INSTRUCTIONS.</Link></p>
+                                <p>Application for the Post-UTME Screening Exercise begins on the xxth xxxx, 2020 and ends on the xxth xxxx, 2020.</p>
+                                <p>Candidates who do not participate in the Post-UTME Screening Exercise will not be considered for admission.</p>
+                                <div className="startBtn"><button className="btn btn-primary">Start Application</button></div>
                             </div>
-                            <div className="col-sm-12 col-md-4">
+                            </div>
+                            <div className="col-sm-12 col-md-4 wlc1">
                                 <form className="login_form">
                                     <h3>Login</h3>
                                 <div className="input-group mb-3">   
@@ -35,7 +42,7 @@ const Home = () => {
                                 <div className="input-group mb-3">
                                     <input type="submit" className="form-control btn btn-primary" value="Login" />
                                 </div>
-                                <p>Don't have an account? <Link to="!#">Register</Link></p>
+                                <p>Don't have an account? <Link to="!#">Register Now</Link></p>
                                 </form>
 
                             </div>

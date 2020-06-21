@@ -19,6 +19,8 @@
     flex-direction: column;
     text-align: left;
     padding: 0 15px;
+    overflow-y: scroll;
+    overflow-x: scroll;
 }
 
 .login_form {
@@ -37,4 +39,42 @@
 p a:hover {
     text-decoration: none;
     color: #007bff;
+}
+
+.welcome_note {
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    border-radius: 5px; 
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.welcome_note h3{
+    text-align: center;
+    color: #ffc107;
+}
+
+.startBtn {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+/*--------------------------------------------------------------
+# Media Queries
+--------------------------------------------------------------*/
+@media (max-width:767px){
+    .login_details { 
+        display:flex; 
+        flex-direction: column; 
+        /* text-align:center; */
+    }
+    .wlc2 { 
+        order: 2;
+    }
+    .wlc1 { 
+        order: 1;
+        margin-top: 700px;
+        margin-bottom: 30px;
+    }
 }
