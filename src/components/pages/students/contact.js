@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../../header/navbar'
 import '../../styles/contact.css'
+import styles from '../../styles/Contact.module.css'
 
 const Contact = () => {
     return (
@@ -11,7 +12,7 @@ const Contact = () => {
                     <div className="row">
                         <div className="col-md-4"></div>
                         <div className="col-md-4">
-                        <form className="contact_form">
+                        <form className={`contact_form ${styles.App}`}>
                         <h3>Contact Us</h3>
                         <div className="row">
                             <div className="col-sm-12 col-md-6">
@@ -50,7 +51,7 @@ const Contact = () => {
                         <div className="card-body">
                             <h5 className="card-title">Alternatively:</h5>
                             <p className="get_address"><span className="fas fa-location-arrow"></span> Nasarawa State University, Keffi</p>
-                            <p className="get_address"><span className="fas fa-phone"></span> (+234) xxx xxxx xxx</p>
+                            <p className="get_address"><span className="fas fa-phone"></span> (+234) xxx xxxx xxx (Week days 9am to 5pm)</p>
                             <p className="get_address"><span className="fas fa-envelope"></span> support@nsuk.com</p>
                             <div className="social_links">
                             <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"><span className="fab fa-twitter"></span></a>

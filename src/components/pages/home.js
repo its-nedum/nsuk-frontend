@@ -38,7 +38,7 @@ const Home = () => {
                                 <input type="password" className="form-control" placeholder="Password" aria-label="password" aria-describedby="basic-addon1" />
                                 </div>
                                 <input type="checkbox" /> Remember me
-                                <p><Link to="/forgetPassword">Forgot password?</Link></p>
+                                <p><Link to="/forget-password">Forgot password?</Link></p>
                                 <div className="input-group mb-3">
                                     <input type="submit" className="form-control btn btn-primary" value="Login" />
                                 </div>
