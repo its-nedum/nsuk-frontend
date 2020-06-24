@@ -24,6 +24,7 @@ const Home = () => {
                             <div className="col-sm-12 col-md-4 wlc1">
                                 <form className="login_form">
                                     <h3>Login</h3>
+                                    <p>Sign In to your account.</p>
                                 <div className="input-group mb-3">   
                                     <div className="input-group-prepend">
                                         <span className="input-group-text" id="basic-addon1"><span className="fas fa-envelope"></span></span>

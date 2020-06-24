@@ -19,7 +19,11 @@
 
 .register_form h3{
     text-align: left;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+}
+
+.register_form p{
+    text-align: left;
 }
 
 

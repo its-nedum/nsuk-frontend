@@ -8,6 +8,7 @@ import Instructions from './components/pages/students/instructions';
 import Contact from './components/pages/students/contact';
 import ForgetPassword from './components/pages/students/forgetPassword';
 import Dashboard from './components/pages/students/dashboard';
+import Payment from './components/pages/students/payment';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path='/contact-us' component={Contact} />
         <Route exact path='/forget-password' component={ForgetPassword} />
         <Route path='/dashboard' component={Dashboard} />
+        <Route path='/payment-status' component={Payment} />
       </Switch>
       <Footer />
     </div>
