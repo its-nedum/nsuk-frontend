@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 import '../styles/navbar.css'
 import logo from '../../images/logo.png'
 
-const Navbar = () => {
+const SignedInStudent = () => {
     return (
         <div className="container-fluid nav_holder">
             <nav className="navbar navbar-expand-lg navbar-light">
@@ -33,4 +33,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default SignedInStudent

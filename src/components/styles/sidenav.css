@@ -1,0 +1,52 @@
+
+/* For medium and small screens */
+.menu{
+    color: rgba(255,255,255,255) !important;
+}
+.menu .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 255)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+.sm_sidenav{
+    background-color:rgba(0,0,0,0.6);
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.sm_sidenav ul li{
+    border: #ffc107 1px solid;
+    margin-top: 10px;
+    border-radius: 5px;   
+}
+.sm_sidenav .nav-item a{
+    color: #007bff !important;
+    text-align: left;
+    margin-left: 5px;
+}
+
+ul > li > a:hover{
+    text-decoration: none;
+    background-color: #ffc107;
+    color: rgba(255,255,255,255)
+}
+
+/* For large screens only */
+.lg_sidenav{
+    margin-top: 30px;
+    background-color: rgba(0,0,0,0.6);
+    padding: 10px;
+    border-radius: 5px;
+}
+.lg_sidenav ul li{
+    border: #ffc107 1px solid;
+    margin-top: 10px;
+    border-radius: 5px;   
+}
+.nav_item a{
+    color: #007bff;
+    text-align: left;
+}
+
+.nav_link{
+   display: block;
+   padding: .5rem 1rem 
+}
