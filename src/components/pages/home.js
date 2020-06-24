@@ -40,7 +40,8 @@ const Home = () => {
                                 <input type="checkbox" /> Remember me
                                 <p><Link to="/forget-password">Forgot password?</Link></p>
                                 <div className="input-group mb-3">
-                                    <input type="submit" className="form-control btn btn-primary" value="Login" />
+                                    {/* <input type="submit" className="form-control btn btn-primary" value="Login" /> */}
+                                    <Link to="/dashboard" className="form-control btn btn-primary">Login</Link>
                                 </div>
                                 <p>Don't have an account? <Link to="/register">Register Now</Link></p>
                                 </form>
