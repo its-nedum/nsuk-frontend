@@ -7,19 +7,10 @@
     background-image: url('../../images/bg1.jpg');
 }
 
-/* .banner{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    top: -200px;
-    right: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.login_details { 
     text-align: left;
-    padding: 0 15px;
-} */
+    margin-top: 100px;
+}
 
 .login_form {
     background-color: rgba(0,0,0,0.6);
@@ -66,7 +57,6 @@ p a:hover {
         display:flex; 
         flex-direction: column; 
         margin-bottom: 40px;
-        /* margin-top: 700px; */
     }
     .wlc2 { 
         order: 2;
@@ -81,15 +71,3 @@ p a:hover {
     }
 }
 
-@media (max-width:375px){
-    /* .login_details {
-        margin-top: 800px;
-    } */
-
-}
-@media (max-width:320px){
-    /* .login_details {
-        margin-top: 920px;
-    } */
-
-}
