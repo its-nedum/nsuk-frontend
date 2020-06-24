@@ -7,7 +7,7 @@
     background-image: url('../../images/bg1.jpg');
 }
 
-.banner{
+/* .banner{
     position: absolute;
     bottom: 0;
     left: 0;
@@ -19,7 +19,7 @@
     flex-direction: column;
     text-align: left;
     padding: 0 15px;
-}
+} */
 
 .login_form {
     background-color: rgba(0,0,0,0.6);
@@ -66,14 +66,13 @@ p a:hover {
         display:flex; 
         flex-direction: column; 
         margin-bottom: 40px;
-        margin-top: 700px;
+        /* margin-top: 700px; */
     }
     .wlc2 { 
         order: 2;
     }
     .wlc1 { 
         order: 1;
-        /* margin-top: 700px; */
         margin-bottom: 30px;
     }
     .banner_container{
@@ -83,14 +82,14 @@ p a:hover {
 }
 
 @media (max-width:375px){
-    .login_details {
+    /* .login_details {
         margin-top: 800px;
-    }
+    } */
 
 }
 @media (max-width:320px){
-    .login_details {
+    /* .login_details {
         margin-top: 920px;
-    }
+    } */
 
 }
