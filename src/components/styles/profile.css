@@ -1,0 +1,23 @@
+/*--------------------------------------------------------------
+# Stepper Styles
+--------------------------------------------------------------*/
+.MuiPaper-root{
+    background-color: rgba(218, 205, 205, 0.6) !important;
+}
+.step_header{
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+
+/*--------------------------------------------------------------
+# Personal Info Styles
+--------------------------------------------------------------*/
+.personal_info_banner {
+    background-color: rgba(0,0,0,0.6);
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+}
+.personal_info_banner p{
+    color: #fff;
+}

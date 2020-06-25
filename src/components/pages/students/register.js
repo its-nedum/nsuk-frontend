@@ -30,12 +30,12 @@ const Register = () => {
                                 </div>
                             </div>
                             <div className="row">
-                                <div className="input-group mb-3">   
+                                {/* <div className="input-group mb-3">   
                                     <div className="input-group-prepend">
                                         <span className="input-group-text" id="basic-addon1"><span className="fas fa-user-circle"></span></span>
                                     </div>
                                 <input type="text" className="form-control" placeholder="Middle Name (optional)" aria-label="middlename" aria-describedby="basic-addon1" />
-                                </div>
+                                </div> */}
                             
                                 <div className="input-group mb-3">   
                                     <div className="input-group-prepend">

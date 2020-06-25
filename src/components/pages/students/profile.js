@@ -16,7 +16,7 @@ import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles((theme) => ({
     root: {
-      width: '95%',
+      width: '100%',
       marginTop: '30px',
       borderRadius: '5px',
     },
@@ -83,7 +83,7 @@ const Profile = () => {
                 <SideNavbar />
             </div>
             <div className="col-sm-12 col-md-9">   
-    <div className={classes.root}>
+    <div className={`step_header ${classes.root}`}>
       <Stepper activeStep={activeStep} alternativeLabel>
         {steps.map((label) => (
           <Step key={label}>
