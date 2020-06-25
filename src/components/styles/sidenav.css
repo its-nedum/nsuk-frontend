@@ -20,14 +20,14 @@
 .sm_sidenav .nav-item a{
     color: #007bff !important;
     text-align: left;
-    margin-left: 5px;
+    padding-left: 5px;
 }
 
-/* ul > li > a:hover{
+.link_hover > a:hover{
     text-decoration: none;
     background-color: #ffc107;
     color: rgba(255,255,255,255)
-} */
+}
 
 /* For large screens only */
 .lg_sidenav{
