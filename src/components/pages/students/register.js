@@ -41,7 +41,7 @@ const Register = () => {
                                     <div className="input-group-prepend">
                                         <span className="input-group-text" id="basic-addon1"><span className="fas fa-registered"></span></span>
                                     </div>
-                                <input type="text" className="form-control" placeholder="JAMB No." aria-label="jambno" aria-describedby="basic-addon1" />
+                                <input type="text" className="form-control" placeholder="JAMB Registration Number" aria-label="jambno" aria-describedby="basic-addon1" />
                                 </div>   
                             </div>
                             <div className="row">
