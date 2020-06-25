@@ -29,6 +29,9 @@ const StudentSideNav = () => {
                     <li className="nav-item link_hover">
                         <Link className="nav-link" to="/print-acknowledgement"><span className="fa fa-print"></span> Print Acknowledgement Slip</Link>
                     </li>
+                    <li className="nav-item link_hover">
+                        <Link className="nav-link" to="/signout"><span className="fa fa-close"></span> Sign Out</Link>
+                    </li>
                     </ul>
                 </div>
             </nav>
@@ -49,6 +52,9 @@ const StudentSideNav = () => {
                     </li>
                     <li className="nav_item link_hover">
                         <Link className="nav_link" to="/print-acknowledgement"><span className="fa fa-print"></span> Print Acknowledgement Slip</Link>
+                    </li>
+                    <li className="nav_item link_hover">
+                        <Link className="nav_link" to="/signout"><span className="fa fa-close"></span> Sign Out</Link>
                     </li>
                 </ul>
             </nav>

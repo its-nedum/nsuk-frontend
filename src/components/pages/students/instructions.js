@@ -15,28 +15,28 @@ const Instructions = () => {
                             <div className="card instruction_card">
                                 <div className="card-body">
                                     <h3 className="card-title">INSTRUCTIONS</h3>
-                                    <div class="h3">Post-UTME Screening Eligibility</div>
-                                    <span class = "text-light">To be eligible for the Post-UTME Screening Exercise, the candidate (UTME and DIRECT ENTRY) must have:</span>
-                                    <ul class="text-light">
-                                        <li class="m-1">
+                                    <div className="h3">Post-UTME Screening Eligibility</div>
+                                    <span className = "text-light">To be eligible for the Post-UTME Screening Exercise, the candidate (UTME and DIRECT ENTRY) must have:</span>
+                                    <ul className="text-light">
+                                        <li className="m-1">
                                             Choosen Nasarawa State University, Keffi as their first choice of institution or changed his/her most 
                                             preferred institution to NSUK in the 2020/2021 Unified Tertiary Matriculation Examination (UTME).
                                         </li>
-                                        <li class="m-1">
+                                        <li className="m-1">
                                             Scored 160 and above in the 2020/2021 Unified Tertiary Matriculation Examination (UTME).
                                         </li>
                                     </ul>
-                                    <div class="h3">Application Process</div>
-                                    <span class = "text-light">Eligible candidates are required to:</span>
-                                    <ul class="text-light">
-                                        <li class="m-1">
+                                    <div className="h3">Application Process</div>
+                                    <span className = "text-light">Eligible candidates are required to:</span>
+                                    <ul className="text-light">
+                                        <li className="m-1">
                                             Visit the Nasarawa State University Post-UTME Screening Portal at www.######.com and 
                                             create his/her profile with the right information (UTME Registration Number, Email Address, 
                                             Phone Number, and Password).<br />
-                                            <span class="h6 text-danger">Note: Your UTME Registration Number, Email Address, 
+                                            <span className="h6 text-danger">Note: Your UTME Registration Number, Email Address, 
                                                     Phone Number, and Password must be valid before starting the application process.</span>
                                         </li>
-                                        <li class="m-1">
+                                        <li className="m-1">
                                             Provide information about their O’Level results:
                                             <ol>
                                                 <li>Number of O’Level examination sitting(s).</li> 
@@ -45,10 +45,10 @@ const Instructions = () => {
                                                 <li>On selection of O’ level subject listed in a drop-down, fill in the correct grade.</li>
                                                 <li>First Degree, HND, minimum of lower credit in ND, NSUK Diploma, merit in NCE, Eight points (8) in IJMB/JUPEB (Direct Entry candidates).</li>
                                             </ol>
-                                            <span class="h6 text-danger">Note: Any incorrect information shall result in outright and automatic disqualification of the candidate.</span>
+                                            <span className="h6 text-danger">Note: Any incorrect information shall result in outright and automatic disqualification of the candidate.</span>
                                         </li>
                                         
-                                        <li class="m-1">
+                                        <li className="m-1">
                                             Provide information about their Degree Certificate (Direct Entry candidates):
                                             <ol>
                                                 <li>First Degree.</li>
@@ -58,7 +58,7 @@ const Instructions = () => {
                                                 <li>Minimum of merit in NCE.</li>
                                                 <li>Minimum of Eight points (8) in IJMB/JUPEB aggregate.</li>
                                             </ol>
-                                            <span class="h6 text-danger">Note: Any incorrect information shall result in outright and automatic disqualification of the candidate.</span>
+                                            <span className="h6 text-danger">Note: Any incorrect information shall result in outright and automatic disqualification of the candidate.</span>
                                         </li>
                                         <li>Make a Non-Refundable payment of ₦2,000.00 (Two Thousand Naira 0nly) excluding Bank charges.</li> 
                                         <ul>
@@ -66,23 +66,23 @@ const Instructions = () => {
                                             <li>Your application profile will not be created until the application processing fee has been received.</li>
                                             <li>There are no exemptions from the application processing fee.</li>
                                         </ul>
-                                        <span class="h6 text-danger">Note: All candidates have a unique Remita Retrieval Reference 
+                                        <span className="h6 text-danger">Note: All candidates have a unique Remita Retrieval Reference 
                                             number (RRR), only make payment with the one provided to you during the application process.</span>
                                         <li>Application for the Post-UTME Screening Exercise begins on the xxth xxxxx, 2020 and ends on xxth xxxxx, 2020.</li> 
-                                        <span class="h6 text-danger">Note: Failure to complete/submit the Post-UTME application before 
+                                        <span className="h6 text-danger">Note: Failure to complete/submit the Post-UTME application before 
                                         the application deadline might lead to disqualification.</span>
                                     </ul>
                                     <hr />
-                                    <p class="h5">Terms and Condition.</p>
-                                    <ul class = "text-light">
+                                    <p className="h5">Terms and Condition.</p>
+                                    <ul className = "text-light">
                                         <li>I agree with the Terms and Condition provided by Nasarawa State University, Keffi Authorities.</li>
                                         <li>I coincide with the Authorities Nasarawa State University, Keffi on their decisions taken 
                                         on any information I provided in the screening process.</li>
                                         <li>Payment of ₦2,000.00 (and Bank charges) will be made by  me to the Remita Retrieval Reference number (RRR) provided to 
                                         me during my application process on the Nasarawa State University, Keffi Post-UTME Screening Exercise portal - www.#####.com</li>
                                     </ul>
-                                    <div class="text-center pb-5">
-                                        <Link to="/register" class="btn btn-outline-success px-5">Start Application</Link>
+                                    <div className="text-center pb-5">
+                                        <Link to="/register" className="btn btn-outline-success px-5">Start Application</Link>
                                     </div>
         
         

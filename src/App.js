@@ -9,6 +9,9 @@ import Contact from './components/pages/students/contact';
 import ForgetPassword from './components/pages/students/forgetPassword';
 import Dashboard from './components/pages/students/dashboard';
 import Payment from './components/pages/students/payment';
+import Profile from './components/pages/students/profile';
+import UtmeForm from './components/pages/students/utmeForm';
+import PrintForm from './components/pages/students/printForm';
 
 function App() {
   return (
@@ -19,9 +22,12 @@ function App() {
         <Route path='/register' component={Register} />
         <Route path='/instructions' component={Instructions} />
         <Route path='/contact-us' component={Contact} />
-        <Route exact path='/forget-password' component={ForgetPassword} />
+        <Route path='/forget-password' component={ForgetPassword} />
         <Route path='/dashboard' component={Dashboard} />
         <Route path='/payment-status' component={Payment} />
+        <Route path='/student-profile' component={Profile} />
+        <Route path='/student-application' component={UtmeForm} />
+        <Route path='/print-acknowledgement' component={PrintForm} />
       </Switch>
       <Footer />
     </div>
