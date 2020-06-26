@@ -75,13 +75,13 @@ const Register = () => {
                                 </div>    
                             </div>
                             <div className="row">
-                                <div className="col-sm-4"></div>
-                                <div className="col-sm-4">
+                                <div className="col-md-4"></div>
+                                <div className="col-sm-12 col-md-4">
                                     <div className="input-group mb-3">
                                         <input type="submit" className="form-control btn btn-success" value="Register" />
                                     </div>
                                 </div>
-                                <div className="col-sm-4"></div>  
+                                <div className="col-md-4"></div>  
                             </div>
                             
                             <p>Already have an account? <Link to="/">Login Here</Link></p>

@@ -18,7 +18,7 @@ const Navbar = () => {
                         <Link className="nav-link" to="/">POST UTME <span className="sr-only">(current)</span></Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to="/instructions">INSTRUCTION</Link>
+                        <Link className="nav-link" to="/instructions">GUIDELINES</Link>
                     </li>
                     <li className="nav-item">
                         <Link className="nav-link" to="/contact-us">CONTACT US</Link>

@@ -117,9 +117,9 @@ const PersonalInfo = () => {
                             <div className="col-sm-6">
                             <div className="input-group mb-3">   
                                     <div className="input-group-prepend">
-                                        <span className="input-group-text" id="basic-addon1"><span className="fas fa-building"></span></span>
+                                        <span className="input-group-text" id="basic-addon1"><span className="fas fa-location-arrow"></span></span>
                                     </div>
-                                <input type="text" className="form-control" placeholder="L.G.A" aria-label="lga" aria-describedby="basic-addon1" />
+                                <input type="text" className="form-control" placeholder="Home Address" aria-label="address" aria-describedby="basic-addon1" />
                                 </div>
                             </div>
                         </div>
@@ -142,11 +142,10 @@ const PersonalInfo = () => {
                             <div className="col-sm-6">
                             <div className="input-group mb-3">
                                 <div className="input-group-prepend">
-                                    <span className="input-group-text" id="inputGroupFileAddon01">Image</span>
+                                    <span className="input-group-text" id="inputGroupFileAddon01">Passport</span>
                                 </div>
                                 <div className="custom-file">
-                                    <input type="file" className="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01"/>
-                                    <label className="custom-file-label" for="inputGroupFile01">Upload passport</label>
+                                    <input type="file" className="form-control"/>
                                 </div>
                                 </div>
                             </div>

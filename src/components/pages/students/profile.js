@@ -100,7 +100,7 @@ const Profile = () => {
         ) : (
           <div>
             <Typography className={classes.instructions}>{getStepContent(activeStep)}</Typography>
-            <div>
+            <div className="my_btn">
               <Button
                 color="primary"
                 disabled={activeStep === 0}

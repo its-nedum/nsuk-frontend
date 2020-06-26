@@ -21,16 +21,16 @@ const StudentSideNav = () => {
                         <Link className="nav-link nedum" to="/payment-status"><span className="fa fa-credit-card"></span> Application Fee</Link>
                     </li>
                     <li className="nav-item link_hover">
-                        <Link className="nav-link" to="/student-profile"><span className="fa fa-user-circle"></span> Student Profile</Link>
+                        <Link className="nav-link" to="/student-profile"><span className="fa fa-user-circle"></span> Application Profile</Link>
                     </li>
                     <li className="nav-item link_hover">
                         <Link className="nav-link" to="/student-application"><span className="fa fa-vcard"></span> Post UTME Application</Link>
                     </li>
-                    <li className="nav-item link_hover">
+                    {/* <li className="nav-item link_hover">
                         <Link className="nav-link" to="/print-acknowledgement"><span className="fa fa-print"></span> Print Acknowledgement Slip</Link>
-                    </li>
+                    </li> */}
                     <li className="nav-item link_hover">
-                        <Link className="nav-link" to="/signout"><span className="fa fa-close"></span> Sign Out</Link>
+                        <Link className="nav-link" to="/"><span className="fa fa-close"></span> Sign Out</Link>
                     </li>
                     </ul>
                 </div>
@@ -45,16 +45,16 @@ const StudentSideNav = () => {
                         <Link className="nav_link" to="/payment-status"><span className="fa fa-credit-card"></span> Application Fee</Link>
                     </li>
                     <li className="nav_item link_hover">
-                        <Link className="nav_link" to="/student-profile"><span className="fa fa-user-circle"></span> Student Profile</Link>
+                        <Link className="nav_link" to="/student-profile"><span className="fa fa-user-circle"></span> Application Profile</Link>
                     </li>
                     <li className="nav_item link_hover">
                         <Link className="nav_link" to="/student-application"><span className="fa fa-vcard"></span> Post UTME Application</Link>
                     </li>
-                    <li className="nav_item link_hover">
+                    {/* <li className="nav_item link_hover">
                         <Link className="nav_link" to="/print-acknowledgement"><span className="fa fa-print"></span> Print Acknowledgement Slip</Link>
-                    </li>
+                    </li> */}
                     <li className="nav_item link_hover">
-                        <Link className="nav_link" to="/signout"><span className="fa fa-close"></span> Sign Out</Link>
+                        <Link className="nav_link" to="/"><span className="fa fa-close"></span> Sign Out</Link>
                     </li>
                 </ul>
             </nav>

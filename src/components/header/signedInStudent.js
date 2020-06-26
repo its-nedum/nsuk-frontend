@@ -18,13 +18,13 @@ const SignedInStudent = () => {
                         <Link className="nav-link" to="/dashboard">DASHBOARD<span className="sr-only">(current)</span></Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to="/instructions">INSTRUCTION</Link>
+                        <Link className="nav-link" to="/instructions">GUIDELINES</Link>
                     </li>
                     <li className="nav-item">
                         <Link className="nav-link" to="/contact-us">CONTACT US</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to="/signout">SIGN OUT</Link>
+                        <Link className="nav-link" to="/">SIGN OUT</Link>
                     </li>
                     </ul>
                 </div>
