@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import '../styles/navbar.css'
+import Style from '../styles/Styles.module.css'
 import logo from '../../images/logo.png'
 
 const Navbar = () => {
@@ -14,16 +15,16 @@ const Navbar = () => {
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ml-auto">
-                    <li className="nav-item active">
+                    <li className={`nav-item active ${Style.nav_item}`}>
                         <Link className="nav-link" to="/">POST UTME <span className="sr-only">(current)</span></Link>
                     </li>
-                    <li className="nav-item">
+                    <li className={`nav-item ${Style.nav_item}`}>
                         <Link className="nav-link" to="/instructions">GUIDELINES</Link>
                     </li>
-                    <li className="nav-item">
+                    <li className={`nav-item ${Style.nav_item}`}>
                         <Link className="nav-link" to="/contact-us">CONTACT US</Link>
                     </li>
-                    <li className="nav-item">
+                    <li className={`nav-item ${Style.nav_item}`}>
                         <Link className="nav-link" to="/putme/register">REGISTER</Link>
                     </li>
                     </ul>
