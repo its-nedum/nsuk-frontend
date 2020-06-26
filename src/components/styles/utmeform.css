@@ -1,0 +1,27 @@
+.application_form{
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 15px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.student_details table, .utme_details table, .olevel_details table{
+    color: #000;
+    text-align: left;
+}
+.general_info{
+    text-align: left;
+}
+.section_title{
+    text-align: left;
+    color: #ffc107;
+}
+.print_btn{
+    margin-bottom: 30px;
+}
+.nsuk_title{
+    color: #007bff;
+}
+.nsuk_info{
+    color: #ffc107;
+}

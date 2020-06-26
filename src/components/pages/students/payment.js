@@ -26,7 +26,7 @@ const Payment = () => {
                             <tbody>
                                 <tr>
                                 <th scope="row">RRR</th>
-                                <td>250326374122</td>
+                                <td>326325074122</td>
                                 </tr>
                                 <tr>
                                 <th scope="row">Application Fee</th>
