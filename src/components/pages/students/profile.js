@@ -5,14 +5,15 @@ import Jamb from '../students/jambInfo'
 import Personal from '../students/personalInfo'
 import Olevel from '../students/olevelInfo'
 import Success from '../students/successInfo'
-import '../../styles/dashboard.css'
-import '../../styles/profile.css'
 import { makeStyles } from '@material-ui/core/styles';
 import Stepper from '@material-ui/core/Stepper';
 import Step from '@material-ui/core/Step';
 import StepLabel from '@material-ui/core/StepLabel';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import Style from '../../styles/Styles.module.css'
+import '../../styles/profile.css'
+import '../../styles/dashboard.css'
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -77,9 +78,9 @@ const Profile = () => {
       <div>
       <Navbar />
       
-      <div className="dashboard_banner">
+      <div className={Style.dashboard_banner}>
       <div className="row">
-            <div className="col-sm-12 col-md-3 dash_menu">
+            <div className={`col-sm-12 col-md-3 ${Style.dash_menu}`} >
                 <SideNavbar />
             </div>
             <div className="col-sm-12 col-md-9">   

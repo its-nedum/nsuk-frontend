@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../../header/navbar'
 import '../../styles/contact.css'
-import styles from '../../styles/Contact.module.css' //https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/
+import styles from '../../styles/Styles.module.css' //https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/
 
 const Contact = () => {
     return (
