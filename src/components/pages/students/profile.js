@@ -1,9 +1,11 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import Navbar from '../../header/signedInStudent'
 import SideNavbar from '../../header/studentSideNav'
 import Jamb from '../students/jambInfo'
 import Personal from '../students/personalInfo'
 import Olevel from '../students/olevelInfo'
+import Alevel from '../students/alevelInfo'
 import Success from '../students/successInfo'
 import { makeStyles } from '@material-ui/core/styles';
 import Stepper from '@material-ui/core/Stepper';
@@ -50,10 +52,12 @@ const useStyles = makeStyles((theme) => ({
         )
       case 3:
         return (
-            <Success />
+            <Alevel />
         )
       default:
-        return 'Unknown stepIndex';
+        return (
+            <Success />
+        )
     }
   }
 
@@ -95,8 +99,9 @@ const Profile = () => {
       <div>
         {activeStep === steps.length ? (
           <div>
-            <Typography className={classes.instructions}>All steps completed</Typography>
-            <Button onClick={handleReset}>Reset</Button>
+            <Typography className={classes.instructions}>Application Submitted Successfully!</Typography>
+            {/* <Button onClick={handleReset}>Reset</Button> */}
+            <Link to='/putme/student-application' className="btn btn-primary">Print Acknowledgement Slip</Link>
           </div>
         ) : (
           <div>
@@ -111,7 +116,7 @@ const Profile = () => {
                 Go Back
               </Button>
               <Button variant="contained" color="primary" onClick={handleNext}>
-                {activeStep === steps.length - 1 ? 'Finish' : 'Save & Continue'}
+                {activeStep === steps.length - 1 ? 'Submit Application' : 'Save & Continue'}
               </Button>
             </div>
           </div>

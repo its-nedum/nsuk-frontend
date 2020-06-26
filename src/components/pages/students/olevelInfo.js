@@ -286,7 +286,7 @@ const Olevel = () => {
                         </div>
                         <div className="row">
                             <div className="col-sm-12">
-                            <p className="section_header">Upload O'level Result</p>
+                            <p className="section_header">Upload O'level Result(s)</p>
                             </div>
                         </div>
                         <div className="row">

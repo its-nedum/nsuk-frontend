@@ -42,3 +42,8 @@
 /*--------------------------------------------------------------
 # Olevel Info Styles
 --------------------------------------------------------------*/
+.succ_notice{
+    color:#ff0000 !important;
+    background-color: #fff;
+    border-radius: 5px;
+}
