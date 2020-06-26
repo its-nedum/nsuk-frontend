@@ -147,7 +147,7 @@ const PersonalInfo = () => {
                                 <div className="custom-file">
                                     <input type="file" className="form-control"/>
                                 </div>
-                                </div>
+                            </div>
                             </div>
                         </div>
                     </form>

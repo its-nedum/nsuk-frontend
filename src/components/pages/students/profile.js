@@ -17,7 +17,7 @@ import Typography from '@material-ui/core/Typography';
 const useStyles = makeStyles((theme) => ({
     root: {
       width: '100%',
-      marginTop: '30px',
+      marginTop: '15px',
       borderRadius: '5px',
     },
     backButton: {
@@ -30,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
   }));
   
   function getSteps() {
-    return ['Personal Information', 'Jamb Details', 'Olevel Results', 'Submission'];
+    return ['Personal Information', 'JAMB Information', 'O\'level Information', 'A\'level Information (Direct Entry)', 'Completion'];
   }
   
   function getStepContent(stepIndex) {
