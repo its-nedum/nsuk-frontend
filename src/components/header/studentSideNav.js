@@ -15,19 +15,19 @@ const StudentSideNav = () => {
                 <div className="collapse navbar-collapse" id="sidenavbarSupportedContent">
                     <ul className="navbar-nav ml-auto">
                     <li className="nav-item active link_hover">
-                        <Link className="nav-link" to="/dashboard"><span className="fa fa-home"></span> Home<span className="sr-only">(current)</span></Link>
+                        <Link className="nav-link" to="/putme/dashboard"><span className="fa fa-home"></span> Home<span className="sr-only">(current)</span></Link>
                     </li>
                     <li className="nav-item link_hover">
-                        <Link className="nav-link nedum" to="/payment-status"><span className="fa fa-credit-card"></span> Application Fee</Link>
+                        <Link className="nav-link nedum" to="/putme/payment-status"><span className="fa fa-credit-card"></span> Application Fee</Link>
                     </li>
                     <li className="nav-item link_hover">
-                        <Link className="nav-link" to="/student-profile"><span className="fa fa-user-circle"></span> Application Profile</Link>
+                        <Link className="nav-link" to="/putme/student-profile"><span className="fa fa-user-circle"></span> Application Profile</Link>
                     </li>
                     <li className="nav-item link_hover">
-                        <Link className="nav-link" to="/student-application"><span className="fa fa-vcard"></span> Post UTME Application</Link>
+                        <Link className="nav-link" to="/putme/student-application"><span className="fa fa-vcard"></span> Post UTME Application</Link>
                     </li>
                     {/* <li className="nav-item link_hover">
-                        <Link className="nav-link" to="/print-acknowledgement"><span className="fa fa-print"></span> Print Acknowledgement Slip</Link>
+                        <Link className="nav-link" to="/putme/print-acknowledgement"><span className="fa fa-print"></span> Print Acknowledgement Slip</Link>
                     </li> */}
                     <li className="nav-item link_hover">
                         <Link className="nav-link" to="/"><span className="fa fa-close"></span> Sign Out</Link>
@@ -39,19 +39,19 @@ const StudentSideNav = () => {
             <nav className="d-md-none d-sm-none d-none d-lg-block lg_sidenav">
                 <ul className="navbar-nav">
                 <li className="nav_item active link_hover">
-                        <Link className="nav_link" to="/dashboard"><span className="fa fa-home"></span> Home<span className="sr-only">(current)</span></Link>
+                        <Link className="nav_link" to="/putme/dashboard"><span className="fa fa-home"></span> Home<span className="sr-only">(current)</span></Link>
                     </li>
                     <li className="nav_item link_hover">
-                        <Link className="nav_link" to="/payment-status"><span className="fa fa-credit-card"></span> Application Fee</Link>
+                        <Link className="nav_link" to="/putme/payment-status"><span className="fa fa-credit-card"></span> Application Fee</Link>
                     </li>
                     <li className="nav_item link_hover">
-                        <Link className="nav_link" to="/student-profile"><span className="fa fa-user-circle"></span> Application Profile</Link>
+                        <Link className="nav_link" to="/putme/student-profile"><span className="fa fa-user-circle"></span> Application Profile</Link>
                     </li>
                     <li className="nav_item link_hover">
-                        <Link className="nav_link" to="/student-application"><span className="fa fa-vcard"></span> Post UTME Application</Link>
+                        <Link className="nav_link" to="/putme/student-application"><span className="fa fa-vcard"></span> Post UTME Application</Link>
                     </li>
                     {/* <li className="nav_item link_hover">
-                        <Link className="nav_link" to="/print-acknowledgement"><span className="fa fa-print"></span> Print Acknowledgement Slip</Link>
+                        <Link className="nav_link" to="/putme/print-acknowledgement"><span className="fa fa-print"></span> Print Acknowledgement Slip</Link>
                     </li> */}
                     <li className="nav_item link_hover">
                         <Link className="nav_link" to="/"><span className="fa fa-close"></span> Sign Out</Link>

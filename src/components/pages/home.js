@@ -18,7 +18,7 @@ const Home = () => {
                                 Click here for <Link to="/instructions">INSTRUCTIONS.</Link></p>
                                 <p>Application for the Post-UTME Screening Exercise begins on the xxth xxxx, 2020 and ends on the xxth xxxx, 2020.</p>
                                 <p>Candidates who do not participate in the Post-UTME Screening Exercise will not be considered for admission.</p>
-                                <div className="startBtn"><Link to="/register" className="btn btn-primary">Start Application</Link></div>
+                                <div className="startBtn"><Link to="/putme/register" className="btn btn-primary">Start Application</Link></div>
                             </div>
                             </div>
                             <div className="col-sm-12 col-md-4 wlc1">
@@ -42,9 +42,9 @@ const Home = () => {
                                 <p><Link to="/forget-password">Forgot password?</Link></p>
                                 <div className="input-group mb-3">
                                     {/* <input type="submit" className="form-control btn btn-primary" value="Login" /> */}
-                                    <Link to="/dashboard" className="form-control btn btn-primary">Login</Link>
+                                    <Link to="/putme/dashboard" className="form-control btn btn-primary">Login</Link>
                                 </div>
-                                <p>Don't have an account? <Link to="/register">Register Now</Link></p>
+                                <p>Don't have an account? <Link to="/putme/register">Register Now</Link></p>
                                 </form>
 
                             </div>

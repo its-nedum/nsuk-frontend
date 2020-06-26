@@ -19,15 +19,15 @@ function App() {
     <div className="App">
       <Switch>
         <Route exact path='/' component={Home} />
-        <Route path='/register' component={Register} />
+        <Route exact path='/putme/register' component={Register} />
         <Route path='/instructions' component={Instructions} />
         <Route path='/contact-us' component={Contact} />
         <Route path='/forget-password' component={ForgetPassword} />
-        <Route path='/dashboard' component={Dashboard} />
-        <Route path='/payment-status' component={Payment} />
-        <Route path='/student-profile' component={Profile} />
-        <Route path='/student-application' component={UtmeForm} />
-        <Route path='/print-acknowledgement' component={PrintForm} />
+        <Route exact path='/putme/dashboard' component={Dashboard} />
+        <Route exact path='/putme/payment-status' component={Payment} />
+        <Route exact path='/putme/student-profile' component={Profile} />
+        <Route exact path='/putme/student-application' component={UtmeForm} />
+        <Route exact path='/putme/print-acknowledgement' component={PrintForm} />
       </Switch>
       <Footer />
     </div>
