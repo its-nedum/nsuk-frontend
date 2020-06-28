@@ -1,0 +1,8 @@
+.admin_banner{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+}

@@ -12,6 +12,8 @@ import Payment from './components/pages/students/payment';
 import Profile from './components/pages/students/profile';
 import UtmeForm from './components/pages/students/utmeForm';
 import PrintForm from './components/pages/students/printForm';
+import AdminDashboard from './components/pages/admins/adminDashboard';
+import AddAdmin from './components/pages/admins/addAdmin';
 
 function App() {
   return (
@@ -28,6 +30,9 @@ function App() {
         <Route exact path='/putme/student-profile' component={Profile} />
         <Route exact path='/putme/student-application' component={UtmeForm} />
         <Route exact path='/putme/print-acknowledgement' component={PrintForm} />
+        {/* Admin Routes Start Here */}
+        <Route exact path='/admin/dashboard' component={AdminDashboard} />
+        <Route exact path='/admin/add-admin' component={AddAdmin} />
       </Switch>
       <Footer />
     </div>
