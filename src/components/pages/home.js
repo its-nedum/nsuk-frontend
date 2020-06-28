@@ -14,7 +14,7 @@ const Home = () => {
                             <div className="col-sm-12 col-md-8 wlc2">
                                 <div className="welcome_note">                                 
                                 <h3>Post-UTME Screening Exercise</h3>
-                                <p>All candidates (UTME and DIRECT ENTRY) who made Nasarawa State University, Keffi as their first choice of institution as well as those that have changed their most preferred institution to NSUK in the 2020/2021 Unified Tertiary Matriculation Examination (UTME) and have at least Five O'level credit including English and mathematics are eligible to apply for the Post-UTME Screening Exercise.
+                                <p>All candidates (UTME and DIRECT ENTRY) who made Nasarawa State University, Keffi as their first choice of institution as well as those that have changed their most preferred institution to NSUK in the 2020/2021 Unified Tertiary Matriculation Examination (UTME) and have at least five O'level credits including English and Mathematics are eligible to apply for the Post-UTME Screening Exercise.
                                 Click here for <Link to="/instructions">INSTRUCTIONS.</Link></p>
                                 <p>Application for the Post-UTME Screening Exercise begins on the xxth xxxx, 2020 and ends on the xxth xxxx, 2020.</p>
                                 <p>Candidates who do not participate in the Post-UTME Screening Exercise will not be considered for admission.</p>
