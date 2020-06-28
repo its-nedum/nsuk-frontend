@@ -9,10 +9,12 @@ const AddAdmin = () => {
             <div className="add_banner">
                 <div className="row">
                     <div className="col-md-4"></div>
-                    <div className="col-sm-12 col-md-4 add_form">
-                        <form>
+                    <div className="col-sm-12 col-md-4">
+                        <form className="add_form">
+                        <div className="row">
                         <h3>Register An Admin</h3>
                         <p>Create an account for new admin to help screen Post-UTME candidates</p>
+                        </div>
                            <div className="row">
                            <div className="input-group mb-3">   
                                     <div className="input-group-prepend">

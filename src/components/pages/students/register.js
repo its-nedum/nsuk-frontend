@@ -12,8 +12,10 @@ const Register = () => {
                     <div className="col-md-4"></div>
                     <div className="col-sm-12 col-md-4">
                         <form className="register_form">
+                            <div className="row">
                             <h3>Register</h3>
                             <p>Create your account to start your application.</p>
+                            </div>
                             <div className="row">
                                 <div className="input-group mb-3">   
                                     <div className="input-group-prepend">
