@@ -16,7 +16,8 @@ const Payment = () => {
 
                     <div className="col-sm-12 col-md-9">
                         <div className="row">
-                            <div className="col-sm-12 col-md-5 payment_option">
+                            <div className="col-md-3"></div>
+                            <div className="col-sm-12 col-md-6 payment_option">
                             <table className="table table-striped">
                             <thead>
                                 <tr>
@@ -34,7 +35,7 @@ const Payment = () => {
                                 </tr>
                                 <tr>
                                 <th scope="row">Transaction Status</th>
-                                <td>Approved</td>
+                                <td className="text-success">Approved</td>
                                 </tr>
                                 <tr>
                                 <th scope="row">Transaction Id</th>
@@ -45,12 +46,14 @@ const Payment = () => {
                                 <td>2020-08-20 14:20:00 PM</td>
                                 </tr>
                                 <tr>
+                                <td><button className="form-control btn btn-success">Verify Payment</button></td>
                                 <td><button className="form-control btn btn-primary">Generate RRR</button></td>
-                                <td><button className="form-control btn btn-success">Verify</button></td>
+                                
                                 </tr>
                             </tbody>
                             </table>
                             </div>
+                            <div className="col-md-3"></div>
                         </div>     
                     </div>
                 </div>

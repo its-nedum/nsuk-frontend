@@ -115,7 +115,7 @@ const JambInfo = () => {
                         </div>
                         <div className="row">
                             <div className="col-sm-12">
-                            <p className="section_header">Upload JAMB Result</p>
+                            <p className="section_header">Upload JAMB Result Slip</p>
                             </div>
                             <div className="custom-file col-sm-6">
                                 <input type="file" className="form-control"/>

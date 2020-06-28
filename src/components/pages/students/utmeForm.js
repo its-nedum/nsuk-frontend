@@ -9,9 +9,9 @@ const UtmeForm = () => {
     return (
         <div>
         <Navbar />
-            <div className={Style.dashboard_banner}>
+            <div className={Style.dashboard_utmeForm}>
                 <div className="row">
-                    <div className={`col-sm-12 col-md-3 ${Style.dash_menu}`}>
+                    <div className={`col-sm-12 col-md-3 ${Style.dash_utmeForm}`}>
                         <SideNavbar />
                     </div>
 

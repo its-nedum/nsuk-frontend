@@ -10,8 +10,8 @@ const Contact = () => {
             <div className="contact_banner">
                 <div className="">
                     <div className="row">
-                        <div className="col-md-4"></div>
-                        <div className="col-md-4">
+                        <div className="col-md-2"></div>
+                        <div className="col-md-5">
                         <form className={`contact_form ${styles.App}`}>
                         <h3>Contact Us</h3>
                         <div className="row">
@@ -46,7 +46,10 @@ const Contact = () => {
                         </div>
                         </div>
                     </form>
-                    <div className="alternatively">
+                    
+                        </div>
+                        <div className="col-sm-12 col-md-5">
+                        <div className="alternatively">
                         <div className="card">
                         <div className="card-body">
                             <h5 className="card-title">Alternatively:</h5>
@@ -61,9 +64,6 @@ const Contact = () => {
                         </div>
                         </div>
                     </div>
-                        </div>
-                        <div className="col-sm-12 col-md-4">
-                        
                         </div>
                     </div>
                 </div>
