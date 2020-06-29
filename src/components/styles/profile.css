@@ -4,15 +4,10 @@
 .MuiPaper-root{
     background-color: rgba(218, 205, 205, 0.6) !important;
 }
-/* .step_header{
-    background-color: rgba(0, 0, 0, 0) !important;
-} */
 
-@media (max-width:767px){
-    .my_btn{
-        margin-bottom: 40px;
-        margin-top: 15px;
-    }
+.my_btn{
+    margin-bottom: 40px;
+    margin-top: 15px;
 }
 
 /*--------------------------------------------------------------

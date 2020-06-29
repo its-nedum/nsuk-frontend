@@ -101,7 +101,7 @@ const Profile = () => {
           <div>
             <Typography className={classes.instructions}>Application Submitted Successfully!</Typography>
             {/* <Button onClick={handleReset}>Reset</Button> */}
-            <Link to='/putme/student-application' className="btn btn-primary">Print Acknowledgement Slip</Link>
+            <Link to='/putme/student-application' className="btn btn-primary print_btn">Print Acknowledgement Slip</Link>
           </div>
         ) : (
           <div>
@@ -115,7 +115,7 @@ const Profile = () => {
               >
                 Go Back
               </Button>
-              <Button variant="contained" color="primary" onClick={handleNext}>
+              <Button variant="contained" color="primary" onClick={handleNext} >
                 {activeStep === steps.length - 1 ? 'Submit Application' : 'Save & Continue'}
               </Button>
             </div>
