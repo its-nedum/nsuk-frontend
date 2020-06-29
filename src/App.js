@@ -12,8 +12,11 @@ import Payment from './components/pages/students/payment';
 import Profile from './components/pages/students/profile';
 import UtmeForm from './components/pages/students/utmeForm';
 import PrintForm from './components/pages/students/printForm';
+
+// Admin Route Starts Here
 import AdminDashboard from './components/pages/admins/adminDashboard';
 import AddAdmin from './components/pages/admins/addAdmin';
+import RegisteredCandidates from './components/pages/admins/registeredCandidates'
 
 function App() {
   return (
@@ -33,6 +36,7 @@ function App() {
         {/* Admin Routes Start Here */}
         <Route exact path='/admin/dashboard' component={AdminDashboard} />
         <Route exact path='/admin/add-admin' component={AddAdmin} />
+        <Route exact path='/admin/registered-candidates' component={RegisteredCandidates} />
       </Switch>
       <Footer />
     </div>

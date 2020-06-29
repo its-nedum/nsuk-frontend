@@ -13,7 +13,7 @@ const AddAdmin = () => {
                         <form className="add_form">
                         <div className="row">
                         <h3>Register An Admin</h3>
-                        <p>Create an account for new admin to help screen Post-UTME candidates</p>
+                        <p>Create an account for a new admin to help screen Post-UTME candidates</p>
                         </div>
                            <div className="row">
                            <div className="input-group mb-3">   
