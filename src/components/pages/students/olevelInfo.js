@@ -105,12 +105,7 @@ const Olevel = () => {
                                 <th scope="row">1</th>
                                 <td>
                                     <select  className="form-control" aria-describedby="basic-addon1">
-                                    <option>Select Subject</option>
                                     <option>English</option>
-                                    <option>Mathematics</option>
-                                    <option>Biology</option>
-                                    <option>Chemistry</option>
-                                    <option>Physics</option>
                                     </select>
                                 </td>
                                 <td>
@@ -141,12 +136,7 @@ const Olevel = () => {
                                 <th scope="row">2</th>
                                 <td>
                                     <select  className="form-control" aria-describedby="basic-addon1">
-                                    <option>Select Subject</option>
-                                    <option>English</option>
                                     <option>Mathematics</option>
-                                    <option>Biology</option>
-                                    <option>Chemistry</option>
-                                    <option>Physics</option>
                                     </select>
                                 </td>
                                 <td>

@@ -57,12 +57,7 @@ const JambInfo = () => {
                                 <th scope="row">1</th>
                                 <td>
                                     <select  className="form-control" aria-describedby="basic-addon1">
-                                    <option>Select Subject</option>
-                                    <option>English</option>
-                                    <option>Mathematics</option>
-                                    <option>Biology</option>
-                                    <option>Chemistry</option>
-                                    <option>Physics</option>
+                                    <option>Use of English</option>
                                     </select>
                                 </td>
                                 <td><input type="text" className="form-control" placeholder="Subject Score" /></td>
@@ -72,7 +67,6 @@ const JambInfo = () => {
                                 <td>
                                     <select  className="form-control" aria-describedby="basic-addon1">
                                     <option>Select Subject</option>
-                                    <option>English</option>
                                     <option>Mathematics</option>
                                     <option>Biology</option>
                                     <option>Chemistry</option>
@@ -86,7 +80,6 @@ const JambInfo = () => {
                                 <td>
                                     <select  className="form-control" aria-describedby="basic-addon1">
                                     <option>Select Subject</option>
-                                    <option>English</option>
                                     <option>Mathematics</option>
                                     <option>Biology</option>
                                     <option>Chemistry</option>
@@ -100,7 +93,6 @@ const JambInfo = () => {
                                 <td>
                                     <select  className="form-control" aria-describedby="basic-addon1">
                                     <option>Select Subject</option>
-                                    <option>English</option>
                                     <option>Mathematics</option>
                                     <option>Biology</option>
                                     <option>Chemistry</option>
