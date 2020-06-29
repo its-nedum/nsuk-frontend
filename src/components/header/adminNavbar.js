@@ -22,13 +22,13 @@ const AdminNavbar = () => {
                         <Link className="nav-link" to="/admin/add-admin">Add Admin</Link>
                     </li>
                     <li className={`nav-item ${Style.nav_item}`}>
-                        <Link className="nav-link" to="/admin/registered-candidates">Registered Candidates</Link>
+                        <Link className="nav-link" to="/admin/registered-candidates">All Candidates</Link>
                     </li>
-                    <li className={`nav-item ${Style.nav_item}`}>
+                    {/* <li className={`nav-item ${Style.nav_item}`}>
                         <Link className="nav-link" to="/admin/screened-candidates">Screened Candidates</Link>
-                    </li>
+                    </li> */}
                     <li className={`nav-item ${Style.nav_item}`}>
-                        <Link className="nav-link" to="/admin/sucessful-candidates">Successful Candidates</Link>
+                        <Link className="nav-link" to="/admin/successful-candidates">Successful Candidates</Link>
                     </li>
                     <li className={`nav-item `}>
                         <Link className="nav-link btn btn-success" to="/admin/screening">Screen Candidate</Link>

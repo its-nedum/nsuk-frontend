@@ -17,6 +17,8 @@ import PrintForm from './components/pages/students/printForm';
 import AdminDashboard from './components/pages/admins/adminDashboard';
 import AddAdmin from './components/pages/admins/addAdmin';
 import RegisteredCandidates from './components/pages/admins/registeredCandidates'
+import Screening from './components/pages/admins/screening'
+import SuccessCandidates from './components/pages/admins/successCandidates'
 
 function App() {
   return (
@@ -37,6 +39,8 @@ function App() {
         <Route exact path='/admin/dashboard' component={AdminDashboard} />
         <Route exact path='/admin/add-admin' component={AddAdmin} />
         <Route exact path='/admin/registered-candidates' component={RegisteredCandidates} />
+        <Route exact path='/admin/screening' component={Screening} />
+        <Route exact path='/admin/successful-candidates' component={SuccessCandidates} />
       </Switch>
       <Footer />
     </div>

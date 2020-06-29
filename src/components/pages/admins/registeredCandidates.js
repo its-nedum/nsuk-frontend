@@ -19,7 +19,7 @@ const RegisteredCandidates = () => {
                             <p>This is a list of all registered candidates, you can search for a candidate using their JAMB registration number.</p>
                             <h4>Total Registered Candidates: 15,000</h4>
                             <div className="">
-                            <table className="table table-striped table-info">
+                            <table className="table table-striped table-bordered table-info">
                             <thead>
                                 <tr>
                                 <th scope="col">#</th>
@@ -27,6 +27,8 @@ const RegisteredCandidates = () => {
                                 <th scope="col">JAMB No.</th>
                                 <th scope="col">JAMB Score</th>
                                 <th scope="col">Aggregate</th>
+                                <th scope="col">Department</th>
+                                <th scope="col">Screening Status</th>
                                 <th scope="col">Admission Status</th>
                                 </tr>
                             </thead>
@@ -37,6 +39,8 @@ const RegisteredCandidates = () => {
                                 <td>234678018</td>
                                 <td>270</td>
                                 <td>76.08</td>
+                                <td>Economics</td>
+                                <td>Successful</td>
                                 <td>Pending</td>
                                 </tr>
                                 <tr>
@@ -45,6 +49,8 @@ const RegisteredCandidates = () => {
                                 <td>234678018</td>
                                 <td>230</td>
                                 <td>66.08</td>
+                                <td>Mathematics and Statistics</td>
+                                <td>Awaiting</td>
                                 <td>Pending</td>
                                 </tr>
                                 <tr>
@@ -53,6 +59,8 @@ const RegisteredCandidates = () => {
                                 <td>234678018</td>
                                 <td>230</td>
                                 <td>66.08</td>
+                                <td>Microbiology</td>
+                                <td>Failed</td>
                                 <td>Pending</td>
                                 </tr>
                                 <tr>
@@ -61,6 +69,8 @@ const RegisteredCandidates = () => {
                                 <td>234678018</td>
                                 <td>270</td>
                                 <td>76.08</td>
+                                <td>Biochemistry</td>
+                                <td>Successful</td>
                                 <td>Pending</td>
                                 </tr>
                                 <tr>
@@ -69,6 +79,8 @@ const RegisteredCandidates = () => {
                                 <td>234678018</td>
                                 <td>230</td>
                                 <td>66.08</td>
+                                <td>Computer Science</td>
+                                <td>Successful</td>
                                 <td>Pending</td>
                                 </tr>
                                 <tr>
@@ -77,6 +89,8 @@ const RegisteredCandidates = () => {
                                 <td>234678018</td>
                                 <td>270</td>
                                 <td>76.08</td>
+                                <td>Economics</td>
+                                <td>Awaiting</td>
                                 <td>Pending</td>
                                 </tr>
                                 <tr>
@@ -85,6 +99,8 @@ const RegisteredCandidates = () => {
                                 <td>234678018</td>
                                 <td>230</td>
                                 <td>66.08</td>
+                                <td>Biochemistry</td>
+                                <td>Failed</td>
                                 <td>Pending</td>
                                 </tr>
                                 <tr>
@@ -93,6 +109,8 @@ const RegisteredCandidates = () => {
                                 <td>234678018</td>
                                 <td>230</td>
                                 <td>66.08</td>
+                                <td>Anatomy</td>
+                                <td>Successful</td>
                                 <td>Pending</td>
                                 </tr>
                                 <tr>
@@ -101,6 +119,8 @@ const RegisteredCandidates = () => {
                                 <td>234678018</td>
                                 <td>270</td>
                                 <td>76.08</td>
+                                <td>English Language</td>
+                                <td>Awaiting</td>
                                 <td>Pending</td>
                                 </tr>
                                 <tr>
@@ -109,6 +129,8 @@ const RegisteredCandidates = () => {
                                 <td>234678018</td>
                                 <td>230</td>
                                 <td>66.08</td>
+                                <td>Biology Education</td>
+                                <td>Awaiting</td>
                                 <td>Pending</td>
                                 </tr>
                                 <tr>
@@ -117,6 +139,8 @@ const RegisteredCandidates = () => {
                                 <td>234678018</td>
                                 <td>270</td>
                                 <td>76.08</td>
+                                <td>Animal Husbandary</td>
+                                <td>Successful</td>
                                 <td>Pending</td>
                                 </tr>
                                 <tr>
@@ -125,6 +149,8 @@ const RegisteredCandidates = () => {
                                 <td>234678018</td>
                                 <td>230</td>
                                 <td>66.08</td>
+                                <td>Biochemistry</td>
+                                <td>Successful</td>
                                 <td>Pending</td>
                                 </tr>
                                 <tr>
@@ -133,6 +159,8 @@ const RegisteredCandidates = () => {
                                 <td>234678018</td>
                                 <td>230</td>
                                 <td>66.08</td>
+                                <td>Computer Science</td>
+                                <td>Successful</td>
                                 <td>Pending</td>
                                 </tr>
                                 <tr>
@@ -141,6 +169,8 @@ const RegisteredCandidates = () => {
                                 <td>234678018</td>
                                 <td>270</td>
                                 <td>76.08</td>
+                                <td>Computer Science</td>
+                                <td>Awaiting</td>
                                 <td>Pending</td>
                                 </tr>
                                 <tr>
@@ -149,6 +179,8 @@ const RegisteredCandidates = () => {
                                 <td>234678018</td>
                                 <td>230</td>
                                 <td>66.08</td>
+                                <td>Computer Science</td>
+                                <td>Successful</td>
                                 <td>Pending</td>
                                 </tr>
                                 <tr>
@@ -157,6 +189,8 @@ const RegisteredCandidates = () => {
                                 <td>234678018</td>
                                 <td>270</td>
                                 <td>76.08</td>
+                                <td>Computer Science</td>
+                                <td>Successful</td>
                                 <td>Pending</td>
                                 </tr>
                                 <tr>
@@ -165,6 +199,8 @@ const RegisteredCandidates = () => {
                                 <td>234678018</td>
                                 <td>230</td>
                                 <td>66.08</td>
+                                <td>Microbiology</td>
+                                <td>Awaiting</td>
                                 <td>Pending</td>
                                 </tr>
                                 <tr>
@@ -173,6 +209,8 @@ const RegisteredCandidates = () => {
                                 <td>234678018</td>
                                 <td>230</td>
                                 <td>66.08</td>
+                                <td>Microbiology</td>
+                                <td>Successful</td>
                                 <td>Pending</td>
                                 </tr>
                                 <tr>
@@ -181,6 +219,8 @@ const RegisteredCandidates = () => {
                                 <td>234678018</td>
                                 <td>270</td>
                                 <td>76.08</td>
+                                <td>Microbiology</td>
+                                <td>Successful</td>
                                 <td>Pending</td>
                                 </tr>
                                 <tr>
@@ -189,6 +229,8 @@ const RegisteredCandidates = () => {
                                 <td>234678018</td>
                                 <td>230</td>
                                 <td>66.08</td>
+                                <td>Microbiology</td>
+                                <td>Awaiting</td>
                                 <td>Pending</td>
                                 </tr>
                             </tbody>
