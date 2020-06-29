@@ -1,10 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import AdminNavbar from '../../header/adminNavbar'
-import Pagination from '../admins/pagination'
+import Pagination from './pagination'
 import SearchCandidate from './searchCandidate'
 import SearchResult from './searchResult'
 import '../../adminStyles/regCandidates.css'
-// import Style from '../../adminStyles/adminStyle.module.css'
 
 const RegisteredCandidates = () => {
     return (
@@ -36,7 +36,7 @@ const RegisteredCandidates = () => {
                                 <tr>
                                 <th scope="row">1</th>
                                 <td>Hassan Olawale Okafor</td>
-                                <td>234678018</td>
+                                <td><Link to='/candidate/234678018'>234678018</Link></td>
                                 <td>270</td>
                                 <td>76.08</td>
                                 <td>Economics</td>
@@ -46,7 +46,7 @@ const RegisteredCandidates = () => {
                                 <tr>
                                 <th scope="row">2</th>
                                 <td>James Allahnana Godiya</td>
-                                <td>234678018</td>
+                                <td><Link to='/candidate/234678018'>234678018</Link></td>
                                 <td>230</td>
                                 <td>66.08</td>
                                 <td>Mathematics and Statistics</td>
@@ -56,7 +56,7 @@ const RegisteredCandidates = () => {
                                 <tr>
                                 <th scope="row">3</th>
                                 <td>Halima Musa Agwayi</td>
-                                <td>234678018</td>
+                                <td><Link to='/candidate/234678018'>234678018</Link></td>
                                 <td>230</td>
                                 <td>66.08</td>
                                 <td>Microbiology</td>
@@ -66,7 +66,7 @@ const RegisteredCandidates = () => {
                                 <tr>
                                 <th scope="row">4</th>
                                 <td>Hassan Olawale Okafor</td>
-                                <td>234678018</td>
+                                <td><Link to='/candidate/234678018'>234678018</Link></td>
                                 <td>270</td>
                                 <td>76.08</td>
                                 <td>Biochemistry</td>
@@ -76,7 +76,7 @@ const RegisteredCandidates = () => {
                                 <tr>
                                 <th scope="row">5</th>
                                 <td>James Allahnana Godiya</td>
-                                <td>234678018</td>
+                                <td><Link to='/candidate/234678018'>234678018</Link></td>
                                 <td>230</td>
                                 <td>66.08</td>
                                 <td>Computer Science</td>
@@ -86,7 +86,7 @@ const RegisteredCandidates = () => {
                                 <tr>
                                 <th scope="row">6</th>
                                 <td>Hassan Olawale Okafor</td>
-                                <td>234678018</td>
+                                <td><Link to='/candidate/234678018'>234678018</Link></td>
                                 <td>270</td>
                                 <td>76.08</td>
                                 <td>Economics</td>
@@ -96,7 +96,7 @@ const RegisteredCandidates = () => {
                                 <tr>
                                 <th scope="row">7</th>
                                 <td>James Allahnana Godiya</td>
-                                <td>234678018</td>
+                                <td><Link to='/candidate/234678018'>234678018</Link></td>
                                 <td>230</td>
                                 <td>66.08</td>
                                 <td>Biochemistry</td>
@@ -106,7 +106,7 @@ const RegisteredCandidates = () => {
                                 <tr>
                                 <th scope="row">8</th>
                                 <td>Halima Musa Agwayi</td>
-                                <td>234678018</td>
+                                <td><Link to='/candidate/234678018'>234678018</Link></td>
                                 <td>230</td>
                                 <td>66.08</td>
                                 <td>Anatomy</td>
@@ -116,7 +116,7 @@ const RegisteredCandidates = () => {
                                 <tr>
                                 <th scope="row">9</th>
                                 <td>Hassan Olawale Okafor</td>
-                                <td>234678018</td>
+                                <td><Link to='/candidate/234678018'>234678018</Link></td>
                                 <td>270</td>
                                 <td>76.08</td>
                                 <td>English Language</td>
@@ -126,7 +126,7 @@ const RegisteredCandidates = () => {
                                 <tr>
                                 <th scope="row">10</th>
                                 <td>James Allahnana Godiya</td>
-                                <td>234678018</td>
+                                <td><Link to='/candidate/234678018'>234678018</Link></td>
                                 <td>230</td>
                                 <td>66.08</td>
                                 <td>Biology Education</td>
@@ -136,7 +136,7 @@ const RegisteredCandidates = () => {
                                 <tr>
                                 <th scope="row">11</th>
                                 <td>Hassan Olawale Okafor</td>
-                                <td>234678018</td>
+                                <td><Link to='/candidate/234678018'>234678018</Link></td>
                                 <td>270</td>
                                 <td>76.08</td>
                                 <td>Animal Husbandary</td>
@@ -146,7 +146,7 @@ const RegisteredCandidates = () => {
                                 <tr>
                                 <th scope="row">12</th>
                                 <td>James Allahnana Godiya</td>
-                                <td>234678018</td>
+                                <td><Link to='/candidate/234678018'>234678018</Link></td>
                                 <td>230</td>
                                 <td>66.08</td>
                                 <td>Biochemistry</td>
@@ -156,7 +156,7 @@ const RegisteredCandidates = () => {
                                 <tr>
                                 <th scope="row">13</th>
                                 <td>Halima Musa Agwayi</td>
-                                <td>234678018</td>
+                                <td><Link to='/candidate/234678018'>234678018</Link></td>
                                 <td>230</td>
                                 <td>66.08</td>
                                 <td>Computer Science</td>
@@ -166,7 +166,7 @@ const RegisteredCandidates = () => {
                                 <tr>
                                 <th scope="row">14</th>
                                 <td>Hassan Olawale Okafor</td>
-                                <td>234678018</td>
+                                <td><Link to='/candidate/234678018'>234678018</Link></td>
                                 <td>270</td>
                                 <td>76.08</td>
                                 <td>Computer Science</td>
@@ -176,7 +176,7 @@ const RegisteredCandidates = () => {
                                 <tr>
                                 <th scope="row">15</th>
                                 <td>James Allahnana Godiya</td>
-                                <td>234678018</td>
+                                <td><Link to='/candidate/234678018'>234678018</Link></td>
                                 <td>230</td>
                                 <td>66.08</td>
                                 <td>Computer Science</td>
@@ -186,7 +186,7 @@ const RegisteredCandidates = () => {
                                 <tr>
                                 <th scope="row">16</th>
                                 <td>Hassan Olawale Okafor</td>
-                                <td>234678018</td>
+                                <td><Link to='/candidate/234678018'>234678018</Link></td>
                                 <td>270</td>
                                 <td>76.08</td>
                                 <td>Computer Science</td>
@@ -196,7 +196,7 @@ const RegisteredCandidates = () => {
                                 <tr>
                                 <th scope="row">17</th>
                                 <td>James Allahnana Godiya</td>
-                                <td>234678018</td>
+                                <td><Link to='/candidate/234678018'>234678018</Link></td>
                                 <td>230</td>
                                 <td>66.08</td>
                                 <td>Microbiology</td>
@@ -206,7 +206,7 @@ const RegisteredCandidates = () => {
                                 <tr>
                                 <th scope="row">18</th>
                                 <td>Halima Musa Agwayi</td>
-                                <td>234678018</td>
+                                <td><Link to='/candidate/234678018'>234678018</Link></td>
                                 <td>230</td>
                                 <td>66.08</td>
                                 <td>Microbiology</td>
@@ -216,7 +216,7 @@ const RegisteredCandidates = () => {
                                 <tr>
                                 <th scope="row">19</th>
                                 <td>Hassan Olawale Okafor</td>
-                                <td>234678018</td>
+                                <td><Link to='/candidate/234678018'>234678018</Link></td>
                                 <td>270</td>
                                 <td>76.08</td>
                                 <td>Microbiology</td>
@@ -226,7 +226,7 @@ const RegisteredCandidates = () => {
                                 <tr>
                                 <th scope="row">20</th>
                                 <td>James Allahnana Godiya</td>
-                                <td>234678018</td>
+                                <td><Link to='/candidate/234678018'>234678018</Link></td>
                                 <td>230</td>
                                 <td>66.08</td>
                                 <td>Microbiology</td>

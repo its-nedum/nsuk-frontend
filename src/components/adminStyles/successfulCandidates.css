@@ -1,4 +1,4 @@
-.reg_banner{
+.success_banner{
     width: 100%;
     background-size: cover;
     overflow: hidden;
@@ -6,7 +6,7 @@
     background-image: url('../../images/admin.png');
 }
 
-.registered_candidates{
+.success_candidates{
     background-color: rgba(0,0,0,0.6);
     color: #fff;
     border-radius: 5px; 
@@ -18,15 +18,11 @@
     margin-bottom: 30px;
 }
 
-.hr{
-    background-color: #fff;
-}
-
 /*--------------------------------------------------------------
 # Media Queries
 --------------------------------------------------------------*/
 @media (max-width:991px){
-    .reg_banner{
+    .success_banner{
         overflow-y: scroll;
         overflow-x: scroll;
     }

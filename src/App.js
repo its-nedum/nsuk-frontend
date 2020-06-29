@@ -18,7 +18,8 @@ import AdminDashboard from './components/pages/admins/adminDashboard';
 import AddAdmin from './components/pages/admins/addAdmin';
 import RegisteredCandidates from './components/pages/admins/registeredCandidates'
 import Screening from './components/pages/admins/screening'
-import SuccessCandidates from './components/pages/admins/successCandidates'
+import SuccessfulCandidates from './components/pages/admins/successfulCandidates'
+import SingleCandidate from './components/pages/admins/singleCandidate'
 
 function App() {
   return (
@@ -40,7 +41,8 @@ function App() {
         <Route exact path='/admin/add-admin' component={AddAdmin} />
         <Route exact path='/admin/registered-candidates' component={RegisteredCandidates} />
         <Route exact path='/admin/screening' component={Screening} />
-        <Route exact path='/admin/successful-candidates' component={SuccessCandidates} />
+        <Route exact path='/admin/successful-candidates' component={SuccessfulCandidates} />
+        <Route exact path='/candidate/:regnum' component={SingleCandidate} />
       </Switch>
       <Footer />
     </div>
