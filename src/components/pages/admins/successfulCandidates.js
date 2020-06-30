@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import AdminNavbar from '../../header/adminNavbar'
 import Pagination from './pagination'
 import '../../adminStyles/successfulCandidates.css'
-import DepartmentalSummary from './departmentalSummary'
+// import DepartmentalSummary from './departmentalSummary'
 import SearchCandidate from './searchCandidate'
 import SearchResult from './searchResult'
 
@@ -19,9 +19,9 @@ const SuccessfulCandidates = () => {
                         <h3 className="text-warning">List Of All Successful Candidates</h3>
                             <p>This is a list of all successful candidates, based on their academic performance and candidates with admission from JAMB. 
                                 You can search for any candidate using their JAMB registration number.</p>
-                                <p>You can also view departmental summary of all successful candidates.</p>
+                                {/* <p>You can also view departmental summary of all successful candidates.</p> */}
                             <h4>Total Successful Candidates: 5,000</h4>
-                            <div className="">
+                            <div className="success_table">
                             <table className="table table-striped table-bordered table-info">
                             <thead>
                                 <tr>
@@ -154,9 +154,9 @@ const SuccessfulCandidates = () => {
                                 <SearchResult />
                             </div>
 
-                            <hr className="hr"/>
+                            {/* <hr className="hr"/>
                                 <DepartmentalSummary />
-                            <hr className="hr"/>
+                            <hr className="hr"/> */}
                         </div>
                     </div>
                     <div className="col-md-1"></div>

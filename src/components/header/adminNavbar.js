@@ -24,11 +24,11 @@ const AdminNavbar = () => {
                     <li className={`nav-item ${Style.nav_item}`}>
                         <Link className="nav-link" to="/admin/registered-candidates">All Candidates</Link>
                     </li>
-                    {/* <li className={`nav-item ${Style.nav_item}`}>
-                        <Link className="nav-link" to="/admin/screened-candidates">Screened Candidates</Link>
-                    </li> */}
                     <li className={`nav-item ${Style.nav_item}`}>
                         <Link className="nav-link" to="/admin/successful-candidates">Successful Candidates</Link>
+                    </li>
+                    <li className={`nav-item ${Style.nav_item}`}>
+                        <Link className="nav-link" to="/admin/downloads">Downloads</Link>
                     </li>
                     <li className={`nav-item `}>
                         <Link className="nav-link btn btn-success" to="/admin/screening">Screen Candidate</Link>

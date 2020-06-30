@@ -20,6 +20,7 @@ import RegisteredCandidates from './components/pages/admins/registeredCandidates
 import Screening from './components/pages/admins/screening'
 import SuccessfulCandidates from './components/pages/admins/successfulCandidates'
 import SingleCandidate from './components/pages/admins/singleCandidate'
+import Downloads from './components/pages/admins/downloads'
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
         <Route exact path='/admin/screening' component={Screening} />
         <Route exact path='/admin/successful-candidates' component={SuccessfulCandidates} />
         <Route exact path='/candidate/:regnum' component={SingleCandidate} />
+        <Route exact path='/admin/downloads' component={Downloads} />
       </Switch>
       <Footer />
     </div>

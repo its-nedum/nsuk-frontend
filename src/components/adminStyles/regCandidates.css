@@ -25,9 +25,8 @@
 /*--------------------------------------------------------------
 # Media Queries
 --------------------------------------------------------------*/
-@media (max-width:991px){
-    .reg_banner{
-        overflow-y: scroll;
+@media (max-width:1022px){
+    .candidates_table{
         overflow-x: scroll;
     }
 }

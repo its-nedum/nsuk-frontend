@@ -18,7 +18,7 @@ const RegisteredCandidates = () => {
                             <h3 className="text-warning">List Of All Registered Candidates</h3>
                             <p>This is a list of all registered candidates, you can search for a candidate using their JAMB registration number.</p>
                             <h4>Total Registered Candidates: 15,000</h4>
-                            <div className="">
+                            <div className="candidates_table">
                             <table className="table table-striped table-bordered table-info">
                             <thead>
                                 <tr>

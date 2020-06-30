@@ -1,1 +1,8 @@
-/* Candidates Search */
+/*--------------------------------------------------------------
+# Media Queries For Search Result
+--------------------------------------------------------------*/
+@media (max-width:571px){
+    .result_table{
+        overflow-x: scroll;
+    }
+}

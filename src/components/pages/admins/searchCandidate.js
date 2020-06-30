@@ -1,5 +1,4 @@
 import React from 'react'
-import '../../adminStyles/search.css'
 
 const SearchCandidate = () => {
     return (
