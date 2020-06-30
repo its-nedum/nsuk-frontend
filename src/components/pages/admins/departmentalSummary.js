@@ -4,7 +4,7 @@ import Pagination from './pagination'
 const DepartmentalSummary = () => {
     return (
         <div>
-        <h3 className="text-warning">Departmental Summary</h3>
+        <h5 className="">Departmental Summary</h5>
             <div className="">   
             <table className="table table-striped table-bordered table-success">
             <thead>
