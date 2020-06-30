@@ -80,7 +80,8 @@ const Register = () => {
                                 <div className="col-md-4"></div>
                                 <div className="col-sm-12 col-md-4">
                                     <div className="input-group mb-3">
-                                        <input type="submit" className="form-control btn btn-success" value="Register" />
+                                        {/* <input type="submit" className="form-control btn btn-success" value="Register" /> */}
+                                        <Link to="/" className="form-control btn btn-success">Register</Link>
                                     </div>
                                 </div>
                                 <div className="col-md-4"></div>  

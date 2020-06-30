@@ -88,8 +88,8 @@ const Profile = () => {
                 <SideNavbar />
             </div>
             <div className="col-sm-12 col-md-9">   
-    <div className={`step_header ${classes.root}`}>
-      <Stepper activeStep={activeStep} alternativeLabel>
+    <div className={` ${classes.root}`}>
+      <Stepper className="step_header" activeStep={activeStep} alternativeLabel>
         {steps.map((label) => (
           <Step key={label}>
             <StepLabel>{label}</StepLabel>

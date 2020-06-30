@@ -43,3 +43,12 @@
     background-color: #fff;
     border-radius: 5px;
 }
+
+/*--------------------------------------------------------------
+# Media Queries
+--------------------------------------------------------------*/
+@media (max-width:510px){
+    .step_header{
+        overflow-x: scroll;
+    }
+}

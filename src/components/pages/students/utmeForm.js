@@ -77,20 +77,22 @@ const UtmeForm = () => {
                                     <div className="col-sm-12 utme_details">
                                     <h5 className="section_title">UTME Details</h5>
                                     <table className="table table-bordered table-striped table-info table-sm">
-                                    <tbody>
+                                        <thead>
                                         <tr>
-                                        <td>English</td>
-                                        <td>Mathematics</td>
-                                        <td>Chemistry</td>
-                                        <td>Physics</td>
+                                        <th scope="col">Use of English</th>
+                                        <th scope="col">Mathematics</th>
+                                        <th scope="col">Chemistry</th>
+                                        <th scope="col">Physics</th>
                                         </tr>
+                                        </thead>
+                                        <tbody>
                                         <tr>
                                         <td>60</td>
                                         <td>70</td>
                                         <td>80</td>
                                         <td>60</td>
                                         </tr>
-                                    </tbody>
+                                        </tbody>
                                     </table>
                                     </div>
                                 </div>
@@ -108,7 +110,7 @@ const UtmeForm = () => {
                                 </thead>
                                 <tbody>
                                     <tr>
-                                    <th scope="row">1</th>
+                                    <td scope="row">1</td>
                                     <td>English</td>
                                     <td>B3</td>
                                     <td>WAEC</td>

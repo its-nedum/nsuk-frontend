@@ -25,6 +25,7 @@ const Olevel = () => {
                         <div className="row">
                             <div className="col-sm-12">
                             <p className="section_header">O'level Result(s) Checker Informations</p>
+                            <div className="scroll_table">
                             <table class="table">
                             <thead>
                             <tr>
@@ -86,6 +87,7 @@ const Olevel = () => {
                             </tr>
                             </tbody>
                             </table>
+                            </div>
                             </div>
                         </div>
                         <div className="row">
