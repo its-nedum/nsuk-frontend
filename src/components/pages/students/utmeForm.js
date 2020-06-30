@@ -110,7 +110,7 @@ const UtmeForm = () => {
                                 </thead>
                                 <tbody>
                                     <tr>
-                                    <td scope="row">1</td>
+                                    <th scope="row">1</th>
                                     <td>English</td>
                                     <td>B3</td>
                                     <td>WAEC</td>
