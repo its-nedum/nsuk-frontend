@@ -22,7 +22,7 @@ const SuccessfulCandidates = () => {
                                 {/* <p>You can also view departmental summary of all successful candidates.</p> */}
                             <h4>Total Successful Candidates: 5,000</h4>
                             <div className="success_table">
-                            <table className="table table-striped table-bordered table-info">
+                            <table className="table table-striped table-bordered table-info table-sm">
                             <thead>
                                 <tr>
                                 <th scope="col">#</th>
@@ -137,7 +137,57 @@ const SuccessfulCandidates = () => {
                                 <td>Successful</td>
                                 <td>Successful</td>
                                 </tr>
-            
+                                <tr>
+                                <th scope="row">11</th>
+                                <td>Hassan Olawale Okafor</td>
+                                <td><Link to='/candidate/234678018'>234678018</Link></td>
+                                <td>270</td>
+                                <td>76.08</td>
+                                <td>Economics</td>
+                                <td>Successful</td>
+                                <td>Successful</td>
+                                </tr>
+                                
+                                <tr>
+                                <th scope="row">12</th>
+                                <td>James Allahnana Godiya</td>
+                                <td><Link to='/candidate/234678018'>234678018</Link></td>
+                                <td>230</td>
+                                <td>66.08</td>
+                                <td>Mathematics and Statistics</td>
+                                <td>Successful</td>
+                                <td>Successful</td>
+                                </tr>
+                                <tr>
+                                <th scope="row">13</th>
+                                <td>Halima Musa Agwayi</td>
+                                <td><Link to='/candidate/234678018'>234678018</Link></td>
+                                <td>230</td>
+                                <td>66.08</td>
+                                <td>Microbiology</td>
+                                <td>Successful</td>
+                                <td>Successful</td>
+                                </tr>
+                                <tr>
+                                <th scope="row">14</th>
+                                <td>Hassan Olawale Okafor</td>
+                                <td><Link to='/candidate/234678018'>234678018</Link></td>
+                                <td>270</td>
+                                <td>76.08</td>
+                                <td>Biochemistry</td>
+                                <td>Successful</td>
+                                <td>Successful</td>
+                                </tr>
+                                <tr>
+                                <th scope="row">15</th>
+                                <td>James Allahnana Godiya</td>
+                                <td><Link to='/candidate/234678018'>234678018</Link></td>
+                                <td>230</td>
+                                <td>66.08</td>
+                                <td>Computer Science</td>
+                                <td>Successful</td>
+                                <td>Successful</td>
+                                </tr>
                             </tbody>
                             </table>
                             </div>

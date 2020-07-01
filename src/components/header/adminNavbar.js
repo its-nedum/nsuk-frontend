@@ -30,6 +30,9 @@ const AdminNavbar = () => {
                     <li className={`nav-item ${Style.nav_item}`}>
                         <Link className="nav-link" to="/admin/downloads">Downloads</Link>
                     </li>
+                    <li className={`nav-item ${Style.nav_item}`}>
+                        <Link className="nav-link" to="/admin/login">Sign Out</Link>
+                    </li>
                     <li className={`nav-item `}>
                         <Link className="nav-link btn btn-success" to="/admin/screening">Screen Candidate</Link>
                     </li>

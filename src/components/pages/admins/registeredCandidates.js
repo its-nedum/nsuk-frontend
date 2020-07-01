@@ -19,7 +19,7 @@ const RegisteredCandidates = () => {
                             <p>This is a list of all registered candidates, you can search for a candidate using their JAMB registration number.</p>
                             <h4>Total Registered Candidates: 15,000</h4>
                             <div className="candidates_table">
-                            <table className="table table-striped table-bordered table-info">
+                            <table className="table table-striped table-bordered table-info table-sm">
                             <thead>
                                 <tr>
                                 <th scope="col">#</th>
@@ -183,56 +183,7 @@ const RegisteredCandidates = () => {
                                 <td>Successful</td>
                                 <td>Pending</td>
                                 </tr>
-                                <tr>
-                                <th scope="row">16</th>
-                                <td>Hassan Olawale Okafor</td>
-                                <td><Link to='/candidate/234678018'>234678018</Link></td>
-                                <td>270</td>
-                                <td>76.08</td>
-                                <td>Computer Science</td>
-                                <td>Successful</td>
-                                <td>Pending</td>
-                                </tr>
-                                <tr>
-                                <th scope="row">17</th>
-                                <td>James Allahnana Godiya</td>
-                                <td><Link to='/candidate/234678018'>234678018</Link></td>
-                                <td>230</td>
-                                <td>66.08</td>
-                                <td>Microbiology</td>
-                                <td>Awaiting</td>
-                                <td>Pending</td>
-                                </tr>
-                                <tr>
-                                <th scope="row">18</th>
-                                <td>Halima Musa Agwayi</td>
-                                <td><Link to='/candidate/234678018'>234678018</Link></td>
-                                <td>230</td>
-                                <td>66.08</td>
-                                <td>Microbiology</td>
-                                <td>Successful</td>
-                                <td>Pending</td>
-                                </tr>
-                                <tr>
-                                <th scope="row">19</th>
-                                <td>Hassan Olawale Okafor</td>
-                                <td><Link to='/candidate/234678018'>234678018</Link></td>
-                                <td>270</td>
-                                <td>76.08</td>
-                                <td>Microbiology</td>
-                                <td>Successful</td>
-                                <td>Pending</td>
-                                </tr>
-                                <tr>
-                                <th scope="row">20</th>
-                                <td>James Allahnana Godiya</td>
-                                <td><Link to='/candidate/234678018'>234678018</Link></td>
-                                <td>230</td>
-                                <td>66.08</td>
-                                <td>Microbiology</td>
-                                <td>Awaiting</td>
-                                <td>Pending</td>
-                                </tr>
+                                
                             </tbody>
                             </table>
                             </div>

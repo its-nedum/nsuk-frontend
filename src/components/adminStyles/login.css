@@ -1,0 +1,19 @@
+.adminlogin_banner{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    background-image: url('../../images/admin.png');
+}
+
+.adminlogin_form{
+    background-color: rgba(0,0,0,0.6);
+    text-align: left;
+    margin-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    border-radius: 5px;
+}
