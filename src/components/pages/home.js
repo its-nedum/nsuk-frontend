@@ -27,9 +27,9 @@ const Home = () => {
                                     <p>Sign In to your account.</p>
                                 <div className="input-group mb-3">   
                                     <div className="input-group-prepend">
-                                        <span className="input-group-text" id="basic-addon1"><span className="fas fa-envelope"></span></span>
+                                        <span className="input-group-text" id="basic-addon1"><span className="fas fa-registered"></span></span>
                                     </div>
-                                <input type="email" className="form-control" placeholder="Email" aria-label="email" aria-describedby="basic-addon1" />
+                                <input type="text" className="form-control" placeholder="JAMB Registration Number" aria-label="jambNo" aria-describedby="basic-addon1" />
                                 </div>
 
                                 <div className="input-group mb-3">
