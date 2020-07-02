@@ -14,7 +14,7 @@ const Register = () => {
                         <form className="register_form">
                             <div className="row">
                             <h3>Register</h3>
-                            <p>Create your account to start your application.</p>
+                            <p>Create your account to start your Post-UTME application.</p>
                             </div>
                             <div className="row">
                                 <div className="input-group mb-3">   
