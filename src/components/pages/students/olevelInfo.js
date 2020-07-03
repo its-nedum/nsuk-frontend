@@ -30,11 +30,11 @@ const Olevel = () => {
                             <thead>
                             <tr>
                                 <th scope="col">#</th>
-                                <th scope="col">Exam Num</th>
+                                <th scope="col">Exam No.</th>
                                 <th scope="col">Exam Year</th>
                                 <th scope="col">Exam Type</th>
-                                <th scope="col">Pin Num</th>
-                                <th scope="col">Serial Num</th>
+                                <th scope="col">Pin No.</th>
+                                <th scope="col">Serial No.</th>
                                 <th scope="col">Exam Body</th>
                             </tr>
                             </thead>
